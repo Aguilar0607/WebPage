@@ -40,17 +40,64 @@
     </header>
 
     <div class="card-body">
-        <h3>¿QUIÉNES SOMOS?</h3>
+        <h3>Bienvenido a Olpega: Tu socio confiable en soluciones de transporte y logística</h3>
     </div>
     <div>
         <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas ratione quis consequuntur sunt. 
-            Quod fuga iure eligendi maxime, iste incidunt vitae reprehenderit 
-            nulla mollitia, explicabo amet repudiandae aperiam voluptas earum!
+        Con más de 25 años de experiencia en el sector del transporte y logística, 
+        Olpega se ha consolidado como un líder en el mercado. Nuestra amplia trayectoria 
+        nos ha permitido perfeccionar nuestros servicios y 
+        brindar soluciones confiables a nuestros clientes.
         </p>
     </div>
 
+    <div class="tabs">
+        <div class="tab-header">
+            <div class="active">
+                <i class="fa fa-code"></i>Seccion 1
+            </div>
+            <div>
+                <i class="fa fa-code"></i>Seccion 2
+            </div>
+            <div>
+                <i class="fa fa-code"></i>Seccion 3
+            </div>
+            <div>
+                <i class="fa fa-code"></i>Seccion 4
+            </div>
+        </div>
+        <div class="tab-indicator"></div>
+            <div class="tab-body">
+            <div class="active">
+                <h2>Esta es la seccion 1</h2>
+                <p>
+                    Esto es el parrafo numero 1
+                </p>
+            </div>
+            <div>
+                <h2>Esta es la seccion 2</h2>
+                <p>
+                    Contenido parrafo 2
+                </p>
+            </div>
+            <div>
+                <h2>Esta es la seccion 3</h2>
+                <p>
+                    Contenido parrafo 3
+                </p>
+            </div>
+            <div>
+                <h2>Esta es la seccion 4</h2>
+                <p>
+                    Contenido parrafo 4
+                </p>
+            </div>
+            </div>
+    </div>
+
     <script type="text/javascript" src="./assets/js/nav.js"></script>
+    <script type="text/javascript" src="./assets/js/tab-button.js"></script>
+
 </body>
 
 </html>
