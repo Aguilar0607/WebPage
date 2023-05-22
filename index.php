@@ -39,7 +39,7 @@
 
     </header>
 
-    <div class="card-body">
+    <div class="">
         <h3>Bienvenido a Olpega: Tu socio confiable en soluciones de transporte y logística</h3>
     </div>
     <div>
@@ -51,48 +51,66 @@
         </p>
     </div>
 
-    <div class="tabs">
-        <div class="tab-header">
-            <div class="active">
-                <i class="fa fa-code"></i>Seccion 1
+    <div class="container">
+        <div class="tabs">
+            <div class="tab-header">
+                <div class="active">
+                    <i class="fa fa-code">MISIÓN</i>
+                </div>
+                <div>
+                    <i class="fa fa-code">VISIÓN</i>
+                </div>
+                <div>
+                    <i class="fa fa-code">NUESTROS VALORES</i>
+                </div>
             </div>
-            <div>
-                <i class="fa fa-code"></i>Seccion 2
-            </div>
-            <div>
-                <i class="fa fa-code"></i>Seccion 3
-            </div>
-            <div>
-                <i class="fa fa-code"></i>Seccion 4
-            </div>
+            <div class="tab-indicator"></div>
+                <div class="tab-body">
+                <div class="active">
+                    <p>
+                        “Ofrecer servicio de transporte de carga para la industria 
+                        alimenticia y automotriz; en todo el territorio nacional e 
+                        internacional, cumpliendo estrictos estándares de calidad y 
+                        atención personalizada, para satisfacer las necesidades de 
+                        nuestros clientes, colaboradores y de la sociedad que está en 
+                        contacto con nuestras operaciones, mediante procesos estandarizados, 
+                        personal competente, trabajo en equipo y la mejora continua de la 
+                        efectividad de nuestro Sistema de Calidad y Seguridad”.
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        “Ser el principal proveedor de servicio de transportación y distribución 
+                        internacional de carga para la industria alimenticia y automotriz; una 
+                        organización que se distinga ante la comunidad y sus clientes por su prestigio, 
+                        calidad, seguridad y capacidad de respuesta, con un crecimiento sostenido y 
+                        una alta rentabilidad; respaldada con colaboradores motivados, competentes y 
+                        altamente comprometidos; operando tecnología avanzada y estándares internacionales”.
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        Nuestra empresa se basa en valores fundamentales. Actuamos con honestidad y transparencia, 
+                        generando confianza en nuestros clientes. Respetamos y cumplimos las exigencias de 
+                        nuestros clientes, brindando atención oportuna y transparente. Somos responsables y 
+                        eficientes en cada requerimiento, demostrando confiabilidad. Estamos comprometidos en 
+                        satisfacer las necesidades de nuestros clientes con entregas oportunas. Mantenemos la 
+                        integridad al informar cualquier situación de riesgo. Trabajamos en equipo para cumplir 
+                        eficientemente con los requerimientos de nuestros clientes.
+                    </p>
+                </div>
+                </div>
         </div>
-        <div class="tab-indicator"></div>
-            <div class="tab-body">
-            <div class="active">
-                <h2>Esta es la seccion 1</h2>
-                <p>
-                    Esto es el parrafo numero 1
-                </p>
-            </div>
-            <div>
-                <h2>Esta es la seccion 2</h2>
-                <p>
-                    Contenido parrafo 2
-                </p>
-            </div>
-            <div>
-                <h2>Esta es la seccion 3</h2>
-                <p>
-                    Contenido parrafo 3
-                </p>
-            </div>
-            <div>
-                <h2>Esta es la seccion 4</h2>
-                <p>
-                    Contenido parrafo 4
-                </p>
-            </div>
-            </div>
+    </div>
+
+
+    <div>
+        <p>
+        Con más de 25 años de experiencia en el sector del transporte y logística, 
+        Olpega se ha consolidado como un líder en el mercado. Nuestra amplia trayectoria 
+        nos ha permitido perfeccionar nuestros servicios y 
+        brindar soluciones confiables a nuestros clientes.
+        </p>
     </div>
 
     <script type="text/javascript" src="./assets/js/nav.js"></script>

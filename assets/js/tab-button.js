@@ -6,13 +6,19 @@ let tabsPane = tabHeader.getElementsByTagName("div");
 
 for(let i=0;i<tabsPane.length;i++){
     tabsPane[i].addEventListener("click", function(){
-        tabHeader.getElementsByClassName("active")[0].classList.remove("active");
-        tabsPane[i].classList.add("active");
-        tabBody.getElementsByClassName("active")[0].classList.remove("active");
-        tabBody.getElementsByTagName("div")[i].classList.add("active");
+        // Remove active class from currently active tab
+        let activeHeader = tabHeader.getElementsByClassName("active")[0];
+        let activeBody = tabBody.getElementsByClassName("active")[0];
+        activeHeader.classList.remove("active");
+        activeBody.classList.remove("active");
 
-        tabIndicator.style.left = `calc(calc(100%/4) * ${i})`;
+        // Set a small timeout before adding the active class back
+        setTimeout(function() {
+            tabsPane[i].classList.add("active");
+            tabBody.getElementsByTagName("div")[i].classList.add("active");
 
+            tabIndicator.style.left = `calc(calc(100%/3) * ${i})`;
+        }, 10);
     });
 }
 
