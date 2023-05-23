@@ -5,15 +5,17 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+
+    /* font-size: 20px; */
 }
 
-body{
-    background-color: #ddd ;
+body {
+    background-color: #E0E0E0;
 }
+
 
 .header{
-    background-color: #0d47a1;
+    background-color: #263238;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -52,11 +54,11 @@ body{
 
 .header .nav-links a {
     font-size: 21px;
-    color: #F8F9FA;
+    color: #FAFAFA;
 }
 
 .header .nav-links li a:hover{
-    color: #A9D0F5;
+    color: #B0BEC5;
 }
 
 .menu{
@@ -69,7 +71,7 @@ body{
     font-weight: 700;
     color: #F8F9FA;
     padding: 9px 25px;
-    background: #007BFF;
+    background: #546E7A;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -78,10 +80,46 @@ body{
 
 .header .btn button:hover,
 .header .menu button:hover{
-    background-color: #1e88e5;
+    background-color: #78909C;
     color: #F5F5F5;
     transform: scale(1.1);
 }
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor p {
+    width: 60%; 
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.contenedor img {
+    width: 25%;
+    height: auto;
+    margin-right: 5%;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 800px) {
+    .contenedor {
+        flex-direction: column;
+    }
+    
+    .contenedor p {
+        width: 100%;
+    }
+    
+    .contenedor img {
+        width: 70%;
+        margin-top: 20px;
+    }
+}
+
 
 @media screen and (max-width: 5000px) {
     .tabs{
@@ -107,7 +145,6 @@ body{
 
 
 }
-
 
 @media screen and (max-width: 1100px) {
     .tabs{
@@ -143,6 +180,88 @@ body{
     }
 }
 
+/* Textos */
+.texto{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+
+.texto .titulo{
+    color: #546E7A;
+    font-size: 23px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.text-general{
+    font-size: 25px;
+}
+
+.text-center{
+    text-align: justify;
+}
+
+@media screen and (max-width: 5000px) {
+    .text-general{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .text-general{
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .text-general{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .text-general{
+        font-size: 17px;
+    }
+}
+
+
+.parrafo{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 5000px) {
+    .texto{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .texto{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .texto{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .texto{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+}
+
+
 /* Nav */
 
 .header a{
@@ -156,7 +275,7 @@ body{
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: #0d47a1;
+    background-color: #263238;
     overflow: hidden;
     transition: all 0.3s ease 0s;
 }
@@ -175,12 +294,12 @@ body{
     display: block;
     transition: all 0.3s ease 0s;
     font-weight: 700;
-    color: #F5F5F5;
+    color: #FAFAFA;
 }
 
 .header .overlay a:hover,
 .header .overlay a:focus{
-    color: #007BFF;
+    color: #78909C;
 }
 
 .header .overlay .close{
@@ -249,7 +368,6 @@ body{
     font-weight: 600;
     cursor: pointer;
     font-size: 14px;
-    text-transform: uppercase;
     outline: none;
 }
 
@@ -259,14 +377,14 @@ body{
 }
 
 .tabs .tab-header > div.active{
-    color: #1e88e5;
+    color: #546E7A;
 }
 
 .tabs .tab-indicator{
     position: relative;
     width: calc(100%/3);
     height: 5px;
-    background: #1e88e5;
+    background: #546E7A;
     left: 0px;
     border-radius: 5px;
     transition: all 500ms ease-in-out;
