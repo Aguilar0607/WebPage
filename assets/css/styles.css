@@ -10,16 +10,16 @@
 }
 
 body {
-    background-color: #E0E0E0;
+    background-color: #e9e8e8;
 }
 
 
 .header{
-    background-color: #263238;
+    background-color: #315496;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 85px;
+    height: 100px;
     padding: 5px 10%;
 }
 
@@ -54,11 +54,11 @@ body {
 
 .header .nav-links a {
     font-size: 21px;
-    color: #FAFAFA;
+    color: #F2F2F2;
 }
 
 .header .nav-links li a:hover{
-    color: #B0BEC5;
+    color: #F2B138;
 }
 
 .menu{
@@ -71,7 +71,7 @@ body {
     font-weight: 700;
     color: #F8F9FA;
     padding: 9px 25px;
-    background: #546E7A;
+    background: #506AA3;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -80,8 +80,8 @@ body {
 
 .header .btn button:hover,
 .header .menu button:hover{
-    background-color: #78909C;
-    color: #F5F5F5;
+    background-color: #6A85B0;
+    color: #F2F2F2;
     transform: scale(1.1);
 }
 
@@ -104,6 +104,12 @@ body {
     margin-right: 5%;
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
 }
+
+.img-tab-button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 @media screen and (max-width: 800px) {
     .contenedor {
@@ -188,7 +194,7 @@ body {
 }
 
 .texto .titulo{
-    color: #546E7A;
+    color: #315496;
     font-size: 23px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -275,7 +281,7 @@ body {
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: #263238;
+    background-color: #315496;
     overflow: hidden;
     transition: all 0.3s ease 0s;
 }
@@ -299,7 +305,7 @@ body {
 
 .header .overlay a:hover,
 .header .overlay a:focus{
-    color: #78909C;
+    color: #F2B138;
 }
 
 .header .overlay .close{
@@ -377,14 +383,14 @@ body {
 }
 
 .tabs .tab-header > div.active{
-    color: #546E7A;
+    color: #315496;
 }
 
 .tabs .tab-indicator{
     position: relative;
     width: calc(100%/3);
     height: 5px;
-    background: #546E7A;
+    background: #315496;
     left: 0px;
     border-radius: 5px;
     transition: all 500ms ease-in-out;
@@ -411,3 +417,105 @@ body {
     transition: opacity 500ms ease-in-out, height 0s;
     pointer-events: auto;
 }
+
+.img-tab-button{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+/* Footer */
+
+.pie-pagina{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #315496;
+    color: #F2F2F2; 
+    padding: 20px;
+    font-size: 16px;
+}
+
+.pie-pagina .grupo-1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.pie-pagina .grupo-1 .box, .pie-pagina .grupo-1 .links {
+    flex: 1 1 200px; 
+    margin-bottom: 20px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    max-width: 100%;
+    max-height: 80px; /* Limita la altura del logo */
+    object-fit: contain; /* Mantiene las proporciones correctas del logo */
+}
+
+.img-center{
+    margin-top: 30px;
+}
+
+
+.pie-pagina .grupo-1 .box h2, .pie-pagina .grupo-1 .links h2{
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: #F2F2F2;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #ddd;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .links a{
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pie-pagina .grupo-1 .links a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.pie-pagina .grupo-2 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.pie-pagina .grupo-2 small {
+    color: #ccc;
+}
+
+@media (max-width: 600px) {
+    .pie-pagina .grupo-1 {
+        flex-direction: column;
+    }
+    .pie-pagina .grupo-1 .box, .pie-pagina .grupo-1 .links {
+        margin-bottom: 0; /* Elimina el margen en dispositivos móviles */
+    }
+    .pie-pagina .grupo-1 .box figure img {
+        max-height: 50px; /* Limita la altura del logo para los dispositivos móviles */
+    }
+    /* .img-center{
+        margin-top: 90px;
+    } */
+    .img-center{
+        margin-top: 18%;
+    }
+}
+
+
