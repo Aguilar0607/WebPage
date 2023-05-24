@@ -3,11 +3,19 @@
     <!-- Empieza body -->
     <div class="texto">
         <div class="titulo">
-            <h2>SERVICIO DE LOGISTICA Y TRANSPORTE DE ALTO RENDIMIENTO</h2>
+            <h2>TITULO</h2>
         </div>
         <div class="parrafo contenedor">
             <p>
-                Bienvenido a Olpega Inc. Somos un líder en el campo de los servicios de transporte y logística con más de 25 años de experiencia, proporcionando soluciones personalizadas y seguras para cada cliente y cada industria.    
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Deleniti quae sunt esse repellendus quis repellat laudantium 
+                corporis, dolores perferendis dolorum? Totam iusto dignissimos 
+                aliquam exercitationem delectus! Deserunt quis quas nulla!
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, 
+                repellendus architecto deleniti recusandae nostrum quae laborum 
+                autem quidem, explicabo, sint esse labore ad ducimus eum. 
+                Recusandae excepturi eum dolores architecto?
             </p>
             <img class="img-map" src="./assets/img/dummies/servicio-nacional.png" alt="Mapa Mexico">
         </div>
@@ -19,15 +27,15 @@
             <div class="tab-header">
                 <div class="active">
                     <span class="material-symbols-outlined">view_timeline</span>
-                    <i class="fa fa-code text-general">MISIÓN</i>
+                    <i class="fa fa-code text-general">Seccion 1</i>
                 </div>
                 <div>
                     <span class="material-symbols-outlined">group</span>
-                    <i class="fa fa-code text-general">VISIÓN</i>
+                    <i class="fa fa-code text-general">Seccion 2</i>
                 </div>
                 <div>
                     <span class="material-symbols-outlined">diversity_3</span>
-                    <i class="fa fa-code text-general">NUESTROS VALORES</i>
+                    <i class="fa fa-code text-general">Seccion 3</i>
                 </div>
             </div>
             <div class="tab-indicator"></div>
@@ -35,14 +43,15 @@
                 <div class="active">
                     <tab-button class="contenedor">
                         <p class="text-general text-center">
-                            “Ofrecer servicio de transporte de carga para la industria 
-                            alimenticia y automotriz; en todo el territorio nacional e 
-                            internacional, cumpliendo estrictos estándares de calidad y 
-                            atención personalizada, para satisfacer las necesidades de 
-                            nuestros clientes, colaboradores y de la sociedad que está en 
-                            contacto con nuestras operaciones, mediante procesos estandarizados, 
-                            personal competente, trabajo en equipo y la mejora continua de la 
-                            efectividad de nuestro Sistema de Calidad y Seguridad”.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Deleniti quae sunt esse repellendus quis repellat laudantium 
+                            corporis, dolores perferendis dolorum? Totam iusto dignissimos 
+                            aliquam exercitationem delectus! Deserunt quis quas nulla!
+
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, 
+                            repellendus architecto deleniti recusandae nostrum quae laborum 
+                            autem quidem, explicabo, sint esse labore ad ducimus eum. 
+                            Recusandae excepturi eum dolores architecto?
                         </p>
                         <img class="img-tab-button" src="./assets/img/dummies/servicio-nacional.png" alt="Mapa Mexico">
 
@@ -52,23 +61,16 @@
                 </div>
                 <div>
                     <p class="text-general text-center">
-                        “Ser el principal proveedor de servicio de transportación y distribución 
-                        internacional de carga para la industria alimenticia y automotriz; una 
-                        organización que se distinga ante la comunidad y sus clientes por su prestigio, 
-                        calidad, seguridad y capacidad de respuesta, con un crecimiento sostenido y 
-                        una alta rentabilidad; respaldada con colaboradores motivados, competentes y 
-                        altamente comprometidos; operando tecnología avanzada y estándares internacionales”.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur quo at cupiditate quibusdam eum excepturi sunt dicta est, suscipit culpa nobis hic placeat ipsum aliquam ipsam porro a, illum libero.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consectetur quasi est deleniti molestiae, accusantium provident incidunt natus, fugiat, repudiandae odit ullam inventore quo a cum. Maiores tempore tempora quis.
                     </p>
                 </div>
                 <div>
                     <p class="text-general text-center">
-                        Nuestra empresa se basa en valores fundamentales. Actuamos con honestidad y transparencia, 
-                        generando confianza en nuestros clientes. Respetamos y cumplimos las exigencias de 
-                        nuestros clientes, brindando atención oportuna y transparente. Somos responsables y 
-                        eficientes en cada requerimiento, demostrando confiabilidad. Estamos comprometidos en 
-                        satisfacer las necesidades de nuestros clientes con entregas oportunas. Mantenemos la 
-                        integridad al informar cualquier situación de riesgo. Trabajamos en equipo para cumplir 
-                        eficientemente con los requerimientos de nuestros clientes.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, repellendus laudantium! Animi molestias nobis provident molestiae pariatur sequi veritatis aliquid cupiditate. Maiores veniam molestias adipisci mollitia optio tempore repudiandae omnis.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus commodi culpa molestias ut incidunt nostrum odio, placeat laborum distinctio tenetur debitis quod! Fuga adipisci aliquam ut asperiores, ipsum consequuntur aperiam.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, voluptas aliquid praesentium sint dolor eos blanditiis dolorum. Minima omnis architecto quos dignissimos excepturi vitae possimus, veritatis, dolorem suscipit aspernatur libero.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod corporis, ipsa illum, dolorem officiis repudiandae illo officia, est tempora error incidunt. Dignissimos cum ex eius perferendis veritatis enim repellendus omnis?
                     </p>
                 </div>
                 </div>
@@ -78,11 +80,11 @@
 
     <div class="texto">
         <div class="titulo">
-            <h2>SERVICIO DE LOGISTICA Y TRANSPORTE DE ALTO RENDIMIENTO</h2>
+            <h2>TITULO</h2>
         </div>
         <div class="parrafo contenedor">
             <p>
-                Bienvenido a Olpega Inc. Somos un líder en el campo de los servicios de transporte y logística con más de 25 años de experiencia, proporcionando soluciones personalizadas y seguras para cada cliente y cada industria.    
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatum ad velit molestias suscipit, provident, ullam sunt non a quo sequi voluptas veritatis magnam ipsa in nesciunt eum unde ipsum!
             </p>
             <img class="img-map" src="./assets/img/dummies/servicio-nacional.png" alt="Mapa Mexico">
         </div>

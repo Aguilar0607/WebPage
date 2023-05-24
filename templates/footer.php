@@ -26,6 +26,7 @@
     
     <script type="text/javascript" src="/WebPage/assets/js/nav.js"></script>
     <script type="text/javascript" src="/WebPage/assets/js/tab-button.js"></script>
+    <script type="text/javascript" src="/WebPage/assets/js/modal.js"></script>
 
 </body>
 
