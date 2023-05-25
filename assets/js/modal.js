@@ -2,29 +2,39 @@ var modal = document.getElementById("contactModal");
 var btn = document.getElementById("contactButton");
 var span = document.getElementsByClassName("close")[0];
 var backdrop = document.getElementById("backdrop");
+var btnMobile = document.getElementById("contactButtonMobile");
 
-btn.addEventListener('click', function() {
+function openModal() {
   modal.style.display = "block";
+  modal.classList.add("active");
   backdrop.style.display = "block";
-  setTimeout(function() {
-    modal.classList.add("show");
-  }, 50);
-}, false);
+  backdrop.classList.add("active");
+}
 
-span.addEventListener('click', function() {
-  modal.classList.remove("show");
+function closeModal() {
+  modal.classList.remove("active");
+  backdrop.classList.remove("active");
   setTimeout(function() {
     modal.style.display = "none";
     backdrop.style.display = "none";
   }, 300);
+}
+
+btnMobile.addEventListener('click', function() {
+  openModal();
+}, false);
+
+btn.addEventListener('click', function() {
+  openModal();
+}, false);
+
+span.addEventListener('click', function(event) {
+  event.stopPropagation();
+  closeModal();
 }, false);
 
 window.addEventListener('click', function(event) {
-  if (event.target == modal || event.target == backdrop) {
-    modal.classList.remove("show");
-    setTimeout(function() {
-      modal.style.display = "none";
-      backdrop.style.display = "none";
-    }, 300);
+  if (event.target == modal) {
+    closeModal();
   }
 }, false);

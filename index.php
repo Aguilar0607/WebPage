@@ -53,7 +53,7 @@
                             autem quidem, explicabo, sint esse labore ad ducimus eum. 
                             Recusandae excepturi eum dolores architecto?
                         </p>
-                        <img class="img-tab-button" src="./assets/img/dummies/servicio-nacional.png" alt="Mapa Mexico">
+                        <img class="img-tab-button" src="./assets/img/dummies/camionetas.jpg" alt="Mapa Mexico">
 
 
                     </tab-button>

@@ -556,12 +556,20 @@ body {
 
 
 
-
-
 /* Estilos para el modal */
 
-#backdrop {
+#contactModal, #backdrop {
     display: none;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+#contactModal.active, #backdrop.active {
+    display: block;
+    opacity: 1;
+}
+
+#backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -597,6 +605,7 @@ body {
 }
 
 .container-modal .title a.close {
+    text-decoration: none;
     position: absolute;
     right: 20px;
     top: 20px;
@@ -768,6 +777,66 @@ form .destino {
         flex-direction: column;
     }
 }
+
+
+.container-modal.fade-in {
+    animation: fade-in 0.700ms ease-out;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+/* Estilos para tamaños de pantalla pequeños */
+@media screen and (max-width: 480px) {
+    .container-modal {
+        width: 90%; /* Cambia este valor a la cantidad de espacio que deseas que ocupe el modal */
+        max-width: 90%; /* Asegura que el modal no exceda el 90% del ancho de la pantalla */
+    }
+    .user-details {
+        max-height: 340px;
+        overflow: scroll;
+    }
+
+    .user-details .input-box {
+        width: 100%;
+    }
+
+    .destino .categoria {
+        width: 100%;
+    }
+
+    .container-modal .title p {
+        font-size: 20px;
+    }
+
+    .input-box label {
+        font-size: 14px;
+    }
+
+    .input-box input {
+        height: 35px;
+    }
+
+    .destino .correo-destino {
+        font-size: 16px;
+    }
+
+    .enviar input {
+        height: 35px;
+    }
+}
+
+
+
 
 
 /* Fin estilos modal */

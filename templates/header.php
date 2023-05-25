@@ -14,9 +14,9 @@
 <body>
     <!-- Comienza el navbar -->
     <header class="header">
-        <div class="logo">
+        <a class="logo" href="/WebPage/">
             <img src="/WebPage/assets/img/logo.png" alt="Logo olpega">
-        </div>
+        </a>
         <nav>
             <ul class="nav-links">
                 <li><a href="/WebPage/">Inicio</a></li>
@@ -26,13 +26,13 @@
                 <li><a href="/WebPage/templates/clients.php">Clientes</a></li>
             </ul>
         </nav>
-        <a id="contactButton" class="btn"><button>Contacto</button></a>
+        <a id="contactButtonMobile" class="btn"><button>Contacto</button></a>
 
         <a onclick="openNav()" class="menu"><button>Menu</button></a>
 
-        
+
         <div class="overlay" id="mobile-menu">
-            <a onclick="closeNav" href="" class="close">&times;</a>
+            <a onclick="closeNav()" href="" class="close">&times;</a>
             <div class="overlay-content">
                 <a href="/WebPage/">Inicio</a>
                 <a href="/WebPage/templates/about.php">Quiénes somos</a>
@@ -48,60 +48,62 @@
     <!-- Termina el navbar -->
     <!-- Empieza el Modal -->
     <div id="backdrop"></div>
-    <div id="contactModal" class="container-modal">
-        <div class="title">
-            <p>Contacto</p>
-            <a onclick="closeNav()" href="" class="close">&times;</a>
-
-
+    <div id="contactModal" class="container-modal fade-in">
+        <div class="modal-content">
+            <div class="title">
+                <p>Contacto</p>
+                <a onclick="closeNav()" href="" class="close">&times;</a>
+            </div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" placeholder="Nombre" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Correo</label>
+                        <input type="email" id="email" placeholder="Correo" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="phone">Telefono</label>
+                        <input type="tel" id="phone" placeholder="Telefono" pattern="[0-9]{10}" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" placeholder="Asunto" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="message">Mensaje</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                </div>
+                <div class="destino">
+                    <span class="correo-destino">Destino</span>
+                    <input type="radio" name="destino" id="radio-1">
+                    <input type="radio" name="destino" id="radio-2">
+                    <input type="radio" name="destino" id="radio-3">
+                    <div class="categoria">
+                        <label for="radio-1">
+                            <span class="dot one"></span>
+                            <span>Sistemas</span>
+                        </label>
+                        <label for="radio-2">
+                            <span class="dot two"></span>
+                            <span>Recursos Humanos</span>
+                        </label>
+                        <label for="radio-3">
+                            <span class="dot three"></span>
+                            <span>Gerente</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="enviar">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
         </div>
-        <form action="#">
-            <div class="user-details">
-                <div class="input-box">
-                    <label for="name">Nombre</label>
-                    <input type="text" id="name" placeholder="Nombre" required>
-                </div>
-                <div class="input-box">
-                    <label for="email">Correo</label>
-                    <input type="email" id="email" placeholder="Correo" required>
-                </div>
-                <div class="input-box">
-                    <label for="phone">Telefono</label>
-                    <input type="tel" id="phone" placeholder="Telefono" pattern="[0-9]{10}" required>
-                </div>
-                <div class="input-box">
-                    <label for="subject">Asunto</label>
-                    <input type="text" id="subject" placeholder="Asunto" required>
-                </div>
-                <div class="input-box">
-                    <label for="message">Mensaje</label>
-                    <textarea name="message" id="message"></textarea>
-                </div>
-            </div>
-            <div class="destino">
-                <span class="correo-destino">Destino</span>
-                <input type="radio" name="destino" id="radio-1">
-                <input type="radio" name="destino" id="radio-2">
-                <input type="radio" name="destino" id="radio-3">
-                <div class="categoria">
-                    <label for="radio-1">
-                        <span class="dot one"></span>
-                        <span>Sistemas</span>
-                    </label>
-                    <label for="radio-2">
-                        <span class="dot two"></span>
-                        <span>Recursos Humanos</span>
-                    </label>
-                    <label for="radio-3">
-                        <span class="dot three"></span>
-                        <span>Gerente</span>
-                    </label>
-                </div>
-            </div>
-            <div class="enviar">
-                <input type="submit" value="Enviar">
-            </div>
-        </form>
+
+
 
 
     </div>
