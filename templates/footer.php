@@ -1,32 +1,36 @@
-<footer class="pie-pagina">
-        <div class="grupo-1">
-            <div class="box">
-                <figure>
-                    <a href="#">
-                        <img class="img-center" src="/WebPage/assets/img/logo.png" alt="Logo Olpega">
-                    </a>
-                </figure>
-            </div>
-            <div class="box">
-                <h2>Sobre nosotros</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cumque, quisquam itaque laborum voluptate, modi deleniti dolores architecto, quis quia minima odio dolorum minus repellendus. Tenetur earum totam voluptas qui!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut libero quasi ea, quis quas maxime repellendus numquam perspiciatis omnis, quibusdam fugit iure placeat nobis. Quisquam illo fugiat corporis cum architecto!</p>
-            </div>
-            <div class="links">
-                <h2>Recursos adicionales</h2>
-                <a href="#">Soporte tecnico</a>
-                <a href="#">Aviso de privacidad CCTV</a>
-                <a href="#">Buzon de quejas</a>
-            </div>
-        </div>        
-        <div class="grupo-2">
-            <small><b>&copy; Distribuidora Olpega SA de CV - Todos los derechos revervados</b></small>
+
+
+<footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="/WebPage/" class="flex items-center mb-4 sm:mb-0">
+                <img src="/WebPage/assets/img/logos/logo-blue.png" class="h-8 mr-3" alt="Olpega Logo" />
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <li>
+                    <a href="https://olpega.net/soporte/" class="mr-4 hover:underline md:mr-6 ">Soporte tecnico</a>
+                </li>
+                <li>
+                    <a href="https://olpega.net/sitio/assets/img/PO-07-01-02%20AVISO%20DE%20PRIVACIDAD%20CCTV%20V01.pdf" class="mr-4 hover:underline md:mr-6">Aviso de privacidad CCTV</a>
+                </li>
+                <li>
+                    <a href="https://forms.office.com/r/BP9Hv0nVNu" class="mr-4 hover:underline md:mr-6 ">Buzon de quejas</a>
+                </li>
+            </ul>
         </div>
-    </footer>
-    
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="/WebPage/" class="hover:underline">Distribuidora Olpega SA de CV </a> - Todos los derechos revervados.</span>
+    </div>
+</footer>
+
+
+
+    <script type="text/javascript" src="/WebPage/node_modules/flowbite/dist/flowbite.min.js"></script>
     <script type="text/javascript" src="/WebPage/assets/js/nav.js"></script>
     <script type="text/javascript" src="/WebPage/assets/js/tab-button.js"></script>
     <script type="text/javascript" src="/WebPage/assets/js/modal.js"></script>
+    
+    
 
 </body>
 

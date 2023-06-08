@@ -5,154 +5,91 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    
     /* font-size: 20px; */
 }
 
 body {
-    background-color: #e9e8e8;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+h1 {
+    font-size: 30px !important;
+    font-weight: 500;
 }
 
 
-
-
-
-
-/* Inicio header */
-.header {
-    background-color: #315496;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 100px;
-    padding: 5px 10%;
-}
-
-.header .logo {
-    cursor: pointer;
-    margin-right: auto;
-}
-
-.header .logo img {
-    height: 50px;
-    width: auto;
-    transition: all 0.3s;
-}
-
-.header .logo img:hover {
-    transform: scale(1.1);
-}
-
-.header .nav-links {
-    list-style: none;
-}
-
-.header .nav-links li {
-    display: inline-block;
-    padding: 0 20px;
-}
-
-.header .nav-links li:hover,
-.overlay a:hover {
-    transform: scale(1.1);
-}
-
-.header .nav-links a {
+h2 {
     font-size: 21px;
-    color: #F2F2F2;
+    font-weight: 500;
 }
 
-.header .nav-links li a:hover {
-    color: #F2B138;
+p {
+    letter-spacing: 0.05em;
 }
 
-.menu {
-    display: none;
+/* Estilo por defecto para pantallas grandes */
+.image-container {
+    width: 100%;
+    height: auto;
 }
 
-.header .btn button,
-.header .menu button {
-    margin-left: 20px;
-    font-weight: 700;
-    color: #F8F9FA;
-    padding: 9px 25px;
-    background: #506AA3;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+.image-container img {
+    width: 100%;
+    height: auto;
 }
-
-.header .btn button:hover,
-.header .menu button:hover {
-    background-color: #6A85B0;
-    color: #F2F2F2;
-    transform: scale(1.1);
-}
-/* Fin header */
-
-
-
-
-
-/* Nav */
-.header a {
-    text-decoration: none;
-}
-
-.header .overlay {
+.image-container img {
+    width: 100%;
     height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    background-color: #315496;
-    overflow: hidden;
-    transition: all 0.3s ease 0s;
+    object-fit: contain;
 }
 
-.header .overlay .overlay-content {
-    display: flex;
+.image-container img {
+    width: 100%;
     height: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    object-fit: contain;
 }
 
-.header .overlay a {
-    padding: 15px;
-    font-size: 36px;
-    display: block;
-    transition: all 0.3s ease 0s;
-    font-weight: 700;
-    color: #FAFAFA;
-}
-
-.header .overlay a:hover,
-.header .overlay a:focus {
-    color: #F2B138;
-}
-
-.header .overlay .close {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 65px;
-}
-
-@media screen and (max-height:450px) {
-    .header .overlay a {
-        font-size: 20px;
-    }
-
-    .header .overlay .close {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
+@media (max-width: 740px) {
+    .image-container img {
+        height: auto;
     }
 }
 
-/* FIn nav */
+/* Estilo para pantallas medianas (tabletas) */
+@media screen and (max-width: 768px) {
+    .image-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Estilo para pantallas pequeñas (móviles) */
+@media screen and (max-width: 480px) {
+    .image-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
 
 
 
@@ -206,13 +143,6 @@ body {
 
 
 
-
-
-
-
-
-
-
 /* Tab-button */
 .container {
     display: flex;
@@ -227,8 +157,8 @@ body {
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 5px 10px 5px #ccc;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     overflow: auto;
 }
 
@@ -254,14 +184,16 @@ body {
 }
 
 .tabs .tab-header>div.active {
-    color: #315496;
+    color: #6699CC;
+
 }
 
 .tabs .tab-indicator {
     position: relative;
     width: calc(100%/3);
     height: 5px;
-    background: #315496;
+    background: #6699CC;
+
     left: 0px;
     border-radius: 5px;
     transition: all 500ms ease-in-out;
@@ -356,12 +288,12 @@ body {
 .texto {
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .texto .titulo {
     text-align: center;
-    color: #315496;
+    color: #6699CC;
     font-size: 23px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -369,7 +301,7 @@ body {
 
 .texto .titulo-about {
     text-align: center;
-    color: #315496;
+    color: #6699CC;
     font-size: 40px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -381,6 +313,11 @@ body {
 
 .text-center {
     text-align: justify;
+}
+
+.listas{
+    font-size: 25px;
+    text-align: center;
 }
 
 @media screen and (max-width: 5000px) {
@@ -462,7 +399,7 @@ body {
 .pie-pagina {
     margin-top: 50px;
     width: 100%;
-    background-color: #315496;
+    background-color: #6699CC;
     color: #F2F2F2;
     padding: 20px;
     font-size: 16px;
@@ -626,7 +563,7 @@ body {
 
 .container-modal .title {
     padding: 25px;
-    background: #315496;
+    background: #6699CC;
 }
 
 .container-modal .title p {
@@ -792,14 +729,11 @@ form .destino {
     }
 }
 
-
-
-
 /* Estilos para tamaños de pantalla pequeños */
 @media screen and (max-width: 480px) {
     .container-modal {
-        width: 90%; /* Cambia este valor a la cantidad de espacio que deseas que ocupe el modal */
-        max-width: 90%; /* Asegura que el modal no exceda el 90% del ancho de la pantalla */
+        width: 90%; 
+        max-width: 90%; 
     }
     .user-details {
         max-height: 340px;
@@ -835,6 +769,37 @@ form .destino {
     }
 }
 
+.input-box textarea {
+    background: #F2F2F2;
+    width: 100%;
+    height: 150px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+    background-color: #ccc;
+    transition: all 120ms ease-out 0s;
+}
+
+.input-box textarea:focus,
+.input-box textarea:valid {
+    box-shadow: 0px 0px 0px 2px royalblue;
+}
+
+.enviar input {
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.enviar input:hover {
+    background: #214272;
+    transform: scale(1.05); 
+}
+
+.enviar input:active {
+    transform: scale(1); 
+}
 
 
 
