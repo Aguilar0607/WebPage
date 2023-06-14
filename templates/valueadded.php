@@ -6,8 +6,10 @@
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">CERTIFICACIONES</h1>
             <div class="h-1 w-20 bg-blue-500 rounded"></div>
         </div>
-        <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Contamos con las últimas certificaciones requeridas
-            para ofrecerte un servicio de calidad, con la seguridad que mereces.
+        <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
+            Mantenemos nuestras certificaciones actualizadas para garantizar que nuestros servicios cumplen con los más
+            recientes estándares de calidad y seguridad. Estas credenciales, otorgadas por organismos reconocidos,
+            validan nuestra capacidad para brindarte el servicio de alta calidad y la seguridad que mereces.
         </p>
     </div>
     <div class="container px-5 py-24 mx-auto">

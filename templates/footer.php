@@ -26,6 +26,7 @@
 
 
     <script type="text/javascript" src="/WebPage/node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kutty@latest/dist/kutty.min.js"></script>
     <script type="text/javascript" src="/WebPage/assets/js/nav.js"></script>
     <script type="text/javascript" src="/WebPage/assets/js/tab-button.js"></script>
     <script type="text/javascript" src="/WebPage/assets/js/modal.js"></script>
