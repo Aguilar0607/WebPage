@@ -1,15 +1,15 @@
 <?php include 'templates/header.php'; ?>
 
 <!-- Empieza body -->
-<section class="text-gray-600 body-font">
+<section class="text-gray-600 body-font animate__fadeIn">
     
-    <h2 class=" mt-10 text-5xl font-medium leading-tight text-custom-blue text-center">Soluciones de Logística
+    <h2 class=" mt-10 text-5xl font-medium leading-tight text-custom-blue text-center animate__bounceIn">Soluciones de Logística
         y Transporte</h2>
 
     <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-            <img alt="feature" class="object-cover object-center h-full w-full"
-                src="./assets/img/dummies/mapa-sucursales-1-removebg.png">
+            <img alt="feature" class="animate__fadeIn object-cover object-center h-full w-full"
+                src="./assets/img/dummies/mapa-sucursales-1-removebg.webp">
         </div>
 
 
@@ -21,7 +21,7 @@
                         settings
                     </span>
                 </div>
-                <div class="flex-grow">
+                <div class="flex-grow animate__lightSpeedInRight">
                     <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Personalización del servicio</h2>
                     <p class="leading-relaxed text-base">
                         Distribuidora Olpega S.A. de C.V., fundada en 1997, se dedica a
@@ -80,7 +80,7 @@
       </p>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src="./assets/img/politicas/calidad.png-1.png">
+      <img class="object-cover object-center rounded" alt="hero" src="./assets/img/politicas/calidad.png-1.webp">
     </div>
   </div>
 </section>
