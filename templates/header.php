@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/WebPage/assets/css/styles.css">
-    <link rel="stylesheet" href="/WebPage/assets/css/output.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="/sitio/Paguina/WebPage/assets/css/styles.css">
+    <link rel="stylesheet" href="/sitio/Paguina/WebPage/assets/css/output.css">
 
     <title>Base</title>
 </head>
@@ -17,8 +16,8 @@
 
     <nav class=bg-custom-blue  w-full z-20 top-0 left-0 border-b border-gray-200">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8">
-            <a href="/WebPage/index.php" class="flex items-center">
-                <img src="/WebPage/assets/img/logo.webp" class="h-8 mr-3 transform transition-all hover:scale-110"
+            <a href="/sitio/Paguina/WebPage/index.php" class="flex items-center">
+                <img src="/sitio/Paguina/WebPage/assets/img/logo.webp" class="h-8 mr-3 transform transition-all hover:scale-110"
                     alt="Olpega Logo">
             </a>
             <div class="flex md:order-2">
@@ -42,26 +41,26 @@
                 <ul
                     class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent">
                     <li>
-                        <a href="/WebPage/index.php"
+                        <a href="/sitio/Paguina/WebPage/index.php"
                             class="block py-2 pl-3 pr-4 text-white rounded hover:text-[#66CCFF] md:p-0 transform transition-all hover:scale-110">
                             Inicio
                         </a>
                     </li>
                     <li>
-                        <a href="/WebPage/templates/services.php"
+                        <a href="/sitio/Paguina/WebPage/templates/services.php"
                             class="block py-2 pl-3 pr-4 text-white rounded hover:text-[#66CCFF] md:p-0 transform transition-all hover:scale-110">
                             Servicios
                         </a>
                     </li>
                     <li>
-                        <a href="/WebPage/templates/valueadded.php"
+                        <a href="/sitio/Paguina/WebPage/templates/valueadded.php"
                             class="block py-2 pl-3 pr-4 text-white rounded hover:text-[#66CCFF] md:p-0 transform transition-all hover:scale-110">
                             Valor
                             agregado
                         </a>
                     </li>
                     <li>
-                        <a href="/WebPage/templates/clients.php"
+                        <a href="/sitio/Paguina/WebPage/templates/clients.php"
                             class="block py-2 pl-3 pr-4 text-white rounded hover:text-[#66CCFF] md:p-0 transform transition-all hover:scale-110">
                             Clientes
                         </a>

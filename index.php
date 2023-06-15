@@ -17,9 +17,7 @@
             <div class="flex flex-col mb-10 lg:items-start items-center">
                 <div
                     class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-500 mb-5">
-                    <span class="material-symbols-outlined">
-                        settings
-                    </span>
+                    <img src="/sitio/Paguina/WebPage/assets/img/icons/settings.svg" class="text-blue-500 w-6 h-6" alt="">
                 </div>
                 <div class="flex-grow animate__lightSpeedInRight">
                     <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Personalización del servicio</h2>
@@ -34,9 +32,7 @@
             <div class="flex flex-col mb-10 lg:items-start items-center">
                 <div
                     class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-500 mb-5">
-                    <span class="material-symbols-outlined">
-                        verified_user
-                    </span>
+                    <img src="/sitio/Paguina/WebPage/assets/img/icons/verified_user.svg" class="text-blue-500 w-6 h-6" alt="">
                 </div>
                 <div class="flex-grow">
                     <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Calidad y seguridad</h2>
@@ -50,9 +46,7 @@
             <div class="flex flex-col mb-10 lg:items-start items-center">
                 <div
                     class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-500 mb-5">
-                    <span class="material-symbols-outlined">
-                        satellite_alt
-                    </span>
+                    <img src="/sitio/Paguina/WebPage/assets/img/icons/satelite.svg" class="text-blue-500 w-6 h-6" alt="satelite">
                 </div>
                 <div class="flex-grow">
                     <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Monitoreo satelital</h2>

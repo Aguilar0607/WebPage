@@ -7,23 +7,23 @@
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
          <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-            <img src="/WebPage/assets/img/servicios/300custom.webp" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="/sitio/Paguina/WebPage/assets/img/servicios/300custom.webp" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/WebPage/assets/img/servicios/313.webp" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="/sitio/Paguina/WebPage/assets/img/servicios/313.webp" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/WebPage/assets/img/servicios/serie.webp" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="/sitio/Paguina/WebPage/assets/img/servicios/serie.webp" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 4 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/WebPage/assets/img/servicios/calle.webp" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="/sitio/Paguina/WebPage/assets/img/servicios/calle.webp" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 5 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/WebPage/assets/img/servicios/300.webp" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="/sitio/Paguina/WebPage/assets/img/servicios/300.webp" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
     </div>
     <!-- Slider indicators -->
@@ -57,7 +57,7 @@
     <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
         <div>
             <a href="#">
-                <img src="/WebPage/assets/img/servicios/servicio-dedicado.webp"
+                <img src="/sitio/Paguina/WebPage/assets/img/servicios/servicio-dedicado.webp"
                     class="object-cover w-full h-54 mb-5 bg-right rounded" alt="Persona" loading="lazy" />
             </a>
             <h2 class="mb-2 text-lg font-semibold text-gray-900">
@@ -71,7 +71,7 @@
         </div>
         <div>
             <a href="#">
-                <img src="/WebPage/assets/img/servicios/servicio-nacional.webp"
+                <img src="/sitio/Paguina/WebPage/assets/img/servicios/servicio-nacional.webp"
                     class="object-cover w-full h-54 mb-5 bg-center rounded" alt="Mapa MX" loading="lazy" />
             </a>
             <h2 class="mb-2 text-lg font-semibold text-gray-900">
@@ -85,7 +85,7 @@
         </div>
         <div>
             <a href="#">
-                <img src="/WebPage/assets/img/servicios/monitoreo.webp"
+                <img src="/sitio/Paguina/WebPage/assets/img/servicios/monitoreo.webp"
                     class="object-cover w-full h-54 mb-5 bg-center rounded" alt="Monitoreo" loading="lazy" />
             </a>
             <h2 class="mb-2 text-lg font-semibold text-gray-900">
@@ -99,7 +99,7 @@
         </div>
         <div>
             <a href="#">
-                <img src="/WebPage/assets/img/servicios/olpega-inc.webp"
+                <img src="/sitio/Paguina/WebPage/assets/img/servicios/olpega-inc.webp"
                     class="object-cover w-full h-54 mb-5 bg-center rounded" alt="Mapa USA" loading="lazy" />
             </a>
             <h2 class="mb-2 text-lg font-semibold text-gray-900">

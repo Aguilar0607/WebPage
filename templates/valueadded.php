@@ -18,7 +18,7 @@
             <div class="xl:w-1/5 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                     <img class="h-40 rounded w-full object-cover object-center mb-6"
-                        src="/WebPage/assets/img/certificaciones/CTPAT4.webp" alt="content">
+                        src="/sitio/Paguina/WebPage/assets/img/certificaciones/CTPAT4.webp" alt="content">
                     <h2 class="text-lg text-gray-900 font-medium title-font mb-4">CTPAT</h2>
                     <p class="leading-relaxed text-base">
                         Una asociación que promueve la seguridad de la carga a través de la cooperación con los actores
@@ -29,7 +29,7 @@
             <div class="xl:w-1/5 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                     <img class="h-40 rounded w-full object-cover object-center mb-6"
-                        src="/WebPage/assets/img/certificaciones/Logo-OEA.webp" alt="content">
+                        src="/sitio/Paguina/WebPage/assets/img/certificaciones/Logo-OEA.webp" alt="content">
                     <h2 class="text-lg text-gray-900 font-medium title-font mb-4">OEA</h2>
                     <p class="leading-relaxed text-base">
                         "La certificación OEA en México reconoce la seguridad de la cadena de suministro, facilitando el
@@ -41,7 +41,7 @@
             <div class="xl:w-1/5 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                     <img class="h-40 rounded w-full object-cover object-center mb-6"
-                        src="/WebPage/assets/img/certificaciones/CRM2.webp" alt="content">
+                        src="/sitio/Paguina/WebPage/assets/img/certificaciones/CRM2.webp" alt="content">
                     <h2 class="text-lg text-gray-900 font-medium title-font mb-4">CRM</h2>
                     <p class="leading-relaxed text-base">
                         "Formación integral en gestión de riesgos para la seguridad y eficiencia óptimas de los
@@ -52,7 +52,7 @@
             <div class="xl:w-1/5 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                     <img class="h-40 rounded w-full object-cover object-center mb-6"
-                        src="/WebPage/assets/img/certificaciones/ISO.webp" alt="content">
+                        src="/sitio/Paguina/WebPage/assets/img/certificaciones/ISO.webp" alt="content">
                     <h2 class="text-lg text-gray-900 font-medium title-font mb-4">ISO 9001:2015</h2>
                     <p class="leading-relaxed text-base">
                         "Programa voluntario para un transporte respetuoso con el medio
@@ -63,7 +63,7 @@
             <div class="xl:w-1/5 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                     <img class="h-40 rounded w-full object-cover object-center mb-6"
-                        src="/WebPage/assets/img/certificaciones/TLIMPIO.webp" alt="content">
+                        src="/sitio/Paguina/WebPage/assets/img/certificaciones/TLIMPIO.webp" alt="content">
                     <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Transporte Limpio</h2>
                     <p class="leading-relaxed text-base">
                         "Una norma internacional que garantiza la gestión de calidad y la satisfacción del cliente"

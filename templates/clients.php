@@ -10,31 +10,31 @@
     </p>
     <div class="grid grid-cols-2 gap-2 text-center lg:grid-cols-4">
         <div class="flex items-center justify-center p-6 bg-opacity-25 bg-primary-light">
-            <img src="/WebPage/assets/img/clientes/sanmarcos.webp" alt="San Marcos Logo"
+            <img src="/sitio/Paguina/WebPage/assets/img/clientes/sanmarcos.webp" alt="San Marcos Logo"
                 class="block object-contain h-16" />
         </div>
         <div class="flex items-center justify-center p-6 bg-opacity-25 bg-primary-light">
-            <img src="/WebPage/assets/img/clientes/joffroy.webp" alt="Joffroy Logo" class="block object-contain h-16" />
+            <img src="/sitio/Paguina/WebPage/assets/img/clientes/joffroy.webp" alt="Joffroy Logo" class="block object-contain h-16" />
         </div>
         <div class="flex items-center justify-center p-6 bg-opacity-25 bg-primary-light">
-            <img src="/WebPage/assets/img/clientes/sb-group.webp" alt="Typeform Logo"
+            <img src="/sitio/Paguina/WebPage/assets/img/clientes/sb-group.webp" alt="Typeform Logo"
                 class="block object-contain h-16" />
         </div>
         <div class="flex items-center justify-center p-6 bg-opacity-25 bg-primary-light">
-            <img src="/WebPage/assets/img/clientes/Nemak.webp" alt="Postcss Logo" class="block object-contain h-16" />
+            <img src="/sitio/Paguina/WebPage/assets/img/clientes/Nemak.webp" alt="Postcss Logo" class="block object-contain h-16" />
         </div>
         <div class="flex items-center justify-center p-6 bg-opacity-25 bg-primary-light">
-            <img src="/WebPage/assets/img/clientes/protrans.webp" alt="Yahoo Logo" class="block object-contain h-16" />
+            <img src="/sitio/Paguina/WebPage/assets/img/clientes/protrans.webp" alt="Yahoo Logo" class="block object-contain h-16" />
         </div>
         <div class="flex items-center justify-center p-6 bg-opacity-25 bg-primary-light">
-            <img src="/WebPage/assets/img/clientes/S.webp" alt="Algolia Logo" class="block object-contain h-16" />
+            <img src="/sitio/Paguina/WebPage/assets/img/clientes/S.webp" alt="Algolia Logo" class="block object-contain h-16" />
         </div>
         <div class="flex items-center justify-center p-6 bg-opacity-25 bg-primary-light">
-            <img src="/WebPage/assets/img/clientes/USMotorWorks.webp" alt="Algolia Logo"
+            <img src="/sitio/Paguina/WebPage/assets/img/clientes/USMotorWorks.webp" alt="Algolia Logo"
                 class="block object-contain h-16" />
         </div>
         <div class="flex items-center justify-center p-6 bg-opacity-25 bg-primary-light">
-            <img src="/WebPage/assets/img/clientes/Yazaki.webp" alt="Algolia Logo" class="block object-contain h-16" />
+            <img src="/sitio/Paguina/WebPage/assets/img/clientes/Yazaki.webp" alt="Algolia Logo" class="block object-contain h-16" />
         </div>
     </div>
 </section>
