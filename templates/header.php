@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/sitio/Paguina/WebPage/assets/img/logos/olpega-logo-blue.svg" type="image/svg+xml">
     <link rel="stylesheet" href="/sitio/Paguina/WebPage/assets/css/styles.css">
     <link rel="stylesheet" href="/sitio/Paguina/WebPage/assets/css/output.css">
-
     <title>Base</title>
 </head>
 
@@ -17,7 +17,7 @@
     <nav class=bg-custom-blue  w-full z-20 top-0 left-0 border-b border-gray-200">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8">
             <a href="/sitio/Paguina/WebPage/index.php" class="flex items-center">
-                <img src="/sitio/Paguina/WebPage/assets/img/logo.webp" class="h-8 mr-3 transform transition-all hover:scale-110"
+                <img src="/sitio/Paguina/WebPage/assets/img/logos/olpega-logo-white.svg" class="h-8 mr-3 transform transition-all hover:scale-110"
                     alt="Olpega Logo">
             </a>
             <div class="flex md:order-2">
