@@ -25,7 +25,7 @@
     <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
             <img alt="feature" class="animate__fadeIn object-cover object-center h-full w-full animate-fade animate-delay-[400ms]"
-                src="./assets/img/dummies/mapa-sucursales-1-removebg.webp">
+                src="./assets/img/dummies/olpega-sucursales.svg">
         </div>
 
 
@@ -33,7 +33,7 @@
             <div class="flex flex-col mb-10 lg:items-start items-center animate-fade-right animate-delay-[800ms]">
                 <div
                     class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-500 mb-5">
-                    <img src="/sitio/Paguina/WebPage/assets/img/icons/settings.svg" class="text-blue-500 w-6 h-6" alt="">
+                    <img src="/sitio/Paguina/WebPage/assets/img/icons/settings.svg" class="text-blue-500 w-6 h-6 font-medium" alt="">
                 </div>
                 <div class="flex-grow animate__lightSpeedInRight">
                     <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Personalización del servicio</h2>

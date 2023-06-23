@@ -22,7 +22,7 @@
             </a>
             <div class="flex md:order-2">
                 <button type="button" data-modal-target="contact-modal" data-modal-toggle="contact-modal"
-                    class="text-white bg-custom-blue hover:bg-[#66CCFF] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 transform transition-all hover:scale-110">Contacto</button>
+                    class="text-white bg-custom-blue hover:bg-[#66CCFF] focus:ring-4 focus:outline-none font-medium rounded-lg  px-4 py-2 text-center mr-3 md:mr-0 transform transition-all hover:scale-110 text-lg">Contacto</button>
 
                 <button data-collapse-toggle="navbar-sticky" type="button"
                     class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden  focus:outline-none focus:ring-2 focus:ring-gray-500"
@@ -42,26 +42,26 @@
                     class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent">
                     <li>
                         <a href="/sitio/Paguina/WebPage/index.php"
-                            class="block py-2 pl-3 pr-4 text-gray-500 rounded hover:text-[#66CCFF] md:p-0 transform transition-all hover:scale-110">
+                            class="block py-2 pl-3 pr-4 text-gray-500 rounded hover:text-[#66CCFF] md:p-0 transform transition-all hover:scale-110 text-lg">
                             Inicio
                         </a>
                     </li>
                     <li>
                         <a href="/sitio/Paguina/WebPage/templates/services.php"
-                            class="block py-2 pl-3 pr-4 text-gray-500 rounded hover:text-[#66CCFF] md:p-0 transform transition-all hover:scale-110">
+                            class="block py-2 pl-3 pr-4 text-gray-500 rounded hover:text-[#66CCFF] md:p-0 transform transition-all hover:scale-110 text-lg">
                             Servicios
                         </a>
                     </li>
                     <li>
                         <a href="/sitio/Paguina/WebPage/templates/valueadded.php"
-                            class="block py-2 pl-3 pr-4 text-gray-500 rounded hover:text-[#66CCFF] md:p-0 transform transition-all hover:scale-110">
+                            class="block py-2 pl-3 pr-4 text-gray-500 rounded hover:text-[#66CCFF] md:p-0 transform transition-all hover:scale-110 text-lg">
                             Valor
                             agregado
                         </a>
                     </li>
                     <li>
                         <a href="/sitio/Paguina/WebPage/templates/clients.php"
-                            class="block py-2 pl-3 pr-4 text-gray-500 rounded hover:text-[#66CCFF] md:p-0 transform transition-all hover:scale-110">
+                            class="block py-2 pl-3 pr-4 text-gray-500 rounded hover:text-[#66CCFF] md:p-0 transform transition-all hover:scale-110 text-lg">
                             Clientes
                         </a>
                     </li>

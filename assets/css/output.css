@@ -2298,20 +2298,18 @@ input:checked + .toggle-bg {
   animation: show-up-clock 350ms linear;
 }
 
-@keyframes fade-down {
+@keyframes fade {
   0% {
     opacity: 0;
-    transform: translateY(-2rem);
   }
 
   100% {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
-.animate-fade-down {
-  animation: fade-down 1s both;
+.animate-fade {
+  animation: fade 1s both;
 }
 
 @keyframes fade-right {
@@ -2328,20 +2326,6 @@ input:checked + .toggle-bg {
 
 .animate-fade-right {
   animation: fade-right 1s both;
-}
-
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.animate-fade {
-  animation: fade 1s both;
 }
 
 .cursor-default {
@@ -3754,14 +3738,6 @@ input:checked + .toggle-bg {
   animation-delay: 900ms;
 }
 
-.animate-delay-\[200ms\] {
-  animation-delay: 200ms;
-}
-
-.animate-delay-\[100ms\] {
-  animation-delay: 100ms;
-}
-
 .\[direction\:ltr\] {
   direction: ltr;
 }
@@ -3992,11 +3968,6 @@ input:checked + .toggle-bg {
   background-color: unset;
 }
 
-.hover\:bg-blue-200:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(195 221 253 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-blue-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(30 66 159 / var(--tw-bg-opacity));
@@ -4020,11 +3991,6 @@ input:checked + .toggle-bg {
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-custom-blue:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(57 97 173 / var(--tw-bg-opacity));
 }
 
 .hover\:fill-\[\#8b8b8b\]:hover {
