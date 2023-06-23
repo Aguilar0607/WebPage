@@ -1,20 +1,36 @@
-<?php include 'templates/header.php'; ?>
+<?php 
+    $routes = [
+        '/sitio/Paguina/WebPage/templates/about.php' => 'Acerca de Nosotros',
+        '/sitio/Paguina/WebPage/templates/clients.php' => 'Nuestros Clientes',
+        '/sitio/Paguina/WebPage/templates/services.php' => 'Nuestros Servicios',
+        '/sitio/Paguina/WebPage/templates/valueadded.php' => 'Valor Agregado',
+    ];
+    
+
+    $current_route = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+    if (array_key_exists($current_route, $routes)) {
+        $title = $routes[$current_route];
+    }
+
+    include 'templates/header.php'; 
+?>
+
 
 <!-- Empieza body -->
-<section class="text-gray-600 body-font animate__fadeIn">
+<section class="text-gray-600  animate__fadeIn">
     
-    <h2 class=" mt-10 text-5xl font-medium leading-tight text-custom-blue text-center animate__bounceIn">Soluciones de Logística
-        y Transporte</h2>
+
 
     <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-            <img alt="feature" class="animate__fadeIn object-cover object-center h-full w-full"
+            <img alt="feature" class="animate__fadeIn object-cover object-center h-full w-full animate-fade animate-delay-[400ms]"
                 src="./assets/img/dummies/mapa-sucursales-1-removebg.webp">
         </div>
 
 
-        <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
-            <div class="flex flex-col mb-10 lg:items-start items-center">
+        <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center ">
+            <div class="flex flex-col mb-10 lg:items-start items-center animate-fade-right animate-delay-[800ms]">
                 <div
                     class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-500 mb-5">
                     <img src="/sitio/Paguina/WebPage/assets/img/icons/settings.svg" class="text-blue-500 w-6 h-6" alt="">
@@ -29,7 +45,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex flex-col mb-10 lg:items-start items-center">
+            <div class="flex flex-col mb-10 lg:items-start items-center animate-fade-right animate-delay-[900ms]">
                 <div
                     class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-500 mb-5">
                     <img src="/sitio/Paguina/WebPage/assets/img/icons/verified_user.svg" class="text-blue-500 w-6 h-6" alt="">
@@ -43,7 +59,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex flex-col mb-10 lg:items-start items-center">
+            <div class="flex flex-col mb-10 lg:items-start items-center animate-fade-right animate-delay-[1000ms]">
                 <div
                     class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-500 mb-5">
                     <img src="/sitio/Paguina/WebPage/assets/img/icons/satelite.svg" class="text-blue-500 w-6 h-6" alt="satelite">
@@ -84,7 +100,7 @@
     <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap -m-4">
             <div class="p-4 lg:w-1/3 w-full">
-                <div class="h-full bg-gray-100  px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <div class="h-full bg-gray-100  px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative animate-fade-right">
                     <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">MISIÓN</h1>
                     <p class="leading-relaxed mb-3">
                         "Ofrecer servicio de transporte de carga en todo el territorio

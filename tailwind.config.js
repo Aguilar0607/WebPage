@@ -21,5 +21,6 @@ module.exports = {
     require('flowbite/plugin'),
     require("kutty"),
     require("tw-elements/dist/plugin.cjs"),
+    require('tailwindcss-animated'),
   ],
 }
