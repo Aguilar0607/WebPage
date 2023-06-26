@@ -18,10 +18,11 @@
 	.st1{fill:#FF0000;}
 	.st2{fill:none;stroke:#FF0000;stroke-miterlimit:10;}
 	.st3{font-family:'Rubik', sans-serif;}
-	.st4{font-size:17px;}
-	.st5{font-size:18px;}
-	.st6{font-family:'ArialMT';}
+	.st4{font-size:18px; font-family:'Rubik', sans-serif;}
+	.st5{font-size:18px; font-family:'Rubik', sans-serif;}
+	.st6{font-family:'Rubik', sans-serif;}
 </style>
+
 <switch>
 	<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
 		<i:aipgfRef  xlink:href="#adobe_illustrator_pgf">

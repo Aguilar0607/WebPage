@@ -3,3 +3,27 @@
 @tailwind utilities;
 @import 'animate.css';
 
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  align-items: center;
+}
+
+  
+  

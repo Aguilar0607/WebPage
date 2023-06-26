@@ -18,12 +18,34 @@
 
 
 <!-- Empieza body -->
+
+<div class="overflow-x-hidden">
+  <div class="relative h-screen max-w-full">
+  <img src="/sitio/Paguina/WebPage/assets/img/quienes (1).png" alt="Descripción de la imagen" style="position: absolute; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+
+    <section class="px-4 py-32 mx-auto max-w-7xl absolute inset-0 flex items-center justify-center text-center">
+      <div class="w-full mx-auto md:w-11/12 xl:w-8/12">
+      <h1 class="mb-3 text-6xl font-rubik text-white font-extrabold">OLPEGA</h1>
+
+        <p class="mb-6 text-2xl text-white md:text-3xl md:leading-normal font-semibold">
+        Transporte y Logística de Excelencia
+        </p>
+      </div>
+    </section>
+  </div>
+</div>
+
+
+
+
 <section class="text-gray-600  animate__fadeIn">
     
 
 
     <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    
         <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+        <h2 class="text-gray-900 text-lg title-font font-medium mb-3 text-center animate-fade animate-delay-[400ms]">NUESTRAS SUCURSALES</h2>
             <img alt="feature" class="animate__fadeIn object-cover object-center h-full w-full animate-fade animate-delay-[400ms]"
                 src="./assets/img/dummies/olpega-sucursales.svg">
         </div>
@@ -78,7 +100,7 @@
 </section>
 
 
-<section class="text-gray-600 body-font">
+<section class="bg-gray-100 text-gray-600 body-font">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Politica de calidad
@@ -90,7 +112,7 @@
       </p>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src="./assets/img/politicas/calidad.png-1.webp">
+    <img class="object-cover object-center rounded w-400 h-300" alt="hero" src="./assets/img/politicas/calidad.png-1.webp">
     </div>
   </div>
 </section>
@@ -109,7 +131,7 @@
                         nuestras operaciones, mediante procesos estandarizados, personal competente, trabajo en equipo y
                         la mejora continua de nuestro Sistema de Calidad y Seguridad".
                     </p>
-                    <a class="text-blue-500 inline-flex items-center">GR-01-01-01
+                    <a class="text-custom-blue inline-flex items-center">GR-01-01-01
 
                     </a>
                 </div>
@@ -124,7 +146,7 @@
                         sostenido y una alta rentabilidad; respaldada con colaboradores motivados, competentes y
                         altamente comprometidos; operando tecnología avanzada y estándares internacionales".
                     </p>
-                    <a class="text-blue-500 inline-flex items-center">GR-01-01-02
+                    <a class="text-custom-blue inline-flex items-center">GR-01-01-02
                     </a>
                 </div>
             </div>
@@ -140,7 +162,7 @@
                             <li class="mb-3">Integridad.</li>
                             <li class="mb-3">Trabajo en Equipo.</li>
                         </ul>
-                        <a class="text-blue-500 block items-center">GR-01-01-03</a>
+                        <a class="text-custom-blue block items-center">GR-01-01-03</a>
                     </div>
                 </div>
             </div>

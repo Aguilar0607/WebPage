@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  mode: 'jit',
   content: [
     './templates/**/*.php',
     './index.php',
@@ -14,6 +13,10 @@ module.exports = {
         'custom-blue': '#3961ad',
         'hover-blue': '#66CCFF',
         'elementos-blue': '#9dc4ff',
+        'seccion': '#EAEBEC',
+      },
+      fontFamily: {
+        'rubik': ['Rubik', 'sans-serif']
       },
     },
   },
