@@ -8,6 +8,9 @@
     <link rel="icon" href="/sitio/Paguina/WebPage/assets/img/logos/olpega-logo-blue.svg" type="image/svg+xml">
     <link rel="stylesheet" href="/sitio/Paguina/WebPage/assets/css/output.css">
     <title>Olpega | <?php echo $title ?? 'Inicio'; ?></title>
+    <meta name="description" content="<?php echo $description ?? 'Fundada en 1997, Olpega es un líder en servicios de transporte para la industria alimenticia y automotriz. Ofrecemos soluciones personalizadas de transporte y logística tanto a nivel nacional como internacional, garantizando calidad y seguridad a través de estándares estrictos y monitoreo satelital 24/7. Con presencia en México y Estados Unidos, nos esforzamos por satisfacer las necesidades específicas de cada cliente, mejorando continuamente nuestros procesos y manteniendo los más altos estándares de la industria.'; ?>">
+
+
 </head>
 
 <body>
@@ -20,9 +23,7 @@
                     class="h-10 mr-3 transform transition-all hover:scale-110" alt="Olpega Logo">
             </a>
             <div class="flex md:order-2">
-                <button type="button" data-modal-target="contact-modal" data-modal-toggle="contact-modal"
-                    class="text-white bg-custom-blue hover:bg-[#66CCFF] focus:ring-4 focus:outline-none font-medium rounded-lg  px-4 py-2 text-center mr-3 md:mr-0 transform transition-all hover:scale-110 text-lg">Contacto</button>
-
+                
                 <button data-collapse-toggle="navbar-sticky" type="button"
                     class="inline-flex items-center p-2 text-sm text-gray-500 border border-gray-500 rounded-lg md:hidden  focus:outline-none focus:ring-2 focus:ring-gray-500"
                     aria-controls="navbar-sticky" aria-expanded="false">
@@ -65,85 +66,14 @@
                             Clientes
                         </a>
                     </li>
+                    <li>
+                        <a href="/sitio/Paguina/WebPage/templates/contact.php"
+                            class="block py-2 pl-3 pr-4 text-gray-500 rounded hover:text-[#66CCFF] md:p-0 transform transition-all hover:scale-110 text-lg">
+                            Contacto
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Termina el navbar -->
-    <!-- Main modal -->
-    <div id="contact-modal" tabindex="-1" aria-hidden="true"
-        class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
-        <div class="relative w-full max-w-md max-h-full">
-            <!-- Modal content -->
-            <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-                <button type="button"
-                    class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white"
-                    data-modal-hide="contact-modal">
-                    <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                            clip-rule="evenodd">
-                        </path>
-                    </svg>
-                    <span class="sr-only">Close modal</span>
-                </button>
-                <div class="px-6 py-6 lg:px-8">
-                    <form class="space-y-6" action="#">
-                        <!-- Nombre -->
-                        <div>
-                            <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tu
-                                nombre
-                            </label>
-                            <input type="text" name="name" id="name"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
-                                placeholder="Nombre" required>
-                        </div>
-                        <!-- Correo -->
-                        <div>
-                            <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tu
-                                correo electrónico
-                            </label>
-                            <input type="email" name="email" id="email"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
-                                placeholder="ejemplo@dominio.com" required>
-                        </div>
-                        <!-- Numero -->
-                        <div>
-                            <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tu
-                                teléfono
-                            </label>
-                            <input type="tel" name="phone" id="phone" pattern="[0-9]{10}"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
-                                placeholder="2222222222" required>
-                        </div>
-                        <!-- Asunto -->
-                        <div>
-                            <label for="subject"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Asunto
-                            </label>
-                            <input type="text" name="subject" id="subject"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
-                                placeholder="Asunto" required>
-                        </div>
-                        <!-- Mensaje -->
-                        <div>
-                            <label for="message"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Mensaje</label>
-                            <textarea name="message" id="message" minlength="10"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
-                                placeholder="Escribe tu mensaje aquí" required>
-                            </textarea>
-                        </div>
-                        <button type="submit"
-                            class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Enviar
-                            correo
-                        </button>
-
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Termina el Modal -->

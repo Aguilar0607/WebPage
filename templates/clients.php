@@ -5,16 +5,24 @@
         '/sitio/Paguina/WebPage/templates/services.php' => 'Nuestros Servicios',
         '/sitio/Paguina/WebPage/templates/valueadded.php' => 'Valor Agregado',
     ];
-    
+
+    $descriptions = [
+        '/sitio/Paguina/WebPage/templates/about.php' => 'Descripción para Acerca de Nosotros',
+        '/sitio/Paguina/WebPage/templates/clients.php' => 'Descripción para Nuestros Clientes',
+        '/sitio/Paguina/WebPage/templates/services.php' => 'Descripción para Nuestros Servicios',
+        '/sitio/Paguina/WebPage/templates/valueadded.php' => 'Descripción para Valor Agregado',
+    ];
 
     $current_route = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
     if (array_key_exists($current_route, $routes)) {
         $title = $routes[$current_route];
+        $description = $descriptions[$current_route];
     }
 
     include 'header.php'; 
 ?>
+
 <section class="px-4 py-24 mx-auto max-w-7xl">
     <h1 class="mb-3 text-3xl font-bold leading-tight text-center text-gray-900 md:text-4xl">Nuestros Clientes</h1>
     <p class="mb-16 text-lg text-center text-gray-600">

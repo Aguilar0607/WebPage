@@ -14,6 +14,7 @@ module.exports = {
         'hover-blue': '#66CCFF',
         'elementos-blue': '#9dc4ff',
         'seccion': '#EAEBEC',
+        'custom-gray': '#E2EBF8',
       },
       fontFamily: {
         'rubik': ['Rubik', 'sans-serif']
