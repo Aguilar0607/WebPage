@@ -7,9 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/sitio/Paguina/WebPage/assets/img/logos/olpega-logo-blue.svg" type="image/svg+xml">
     <link rel="stylesheet" href="/sitio/Paguina/WebPage/assets/css/output.css">
-    <title>Olpega | <?php echo $title ?? 'Inicio'; ?></title>
-    <meta name="description" content="<?php echo $description ?? 'Fundada en 1997, Olpega es un líder en servicios de transporte para la industria alimenticia y automotriz. Ofrecemos soluciones personalizadas de transporte y logística tanto a nivel nacional como internacional, garantizando calidad y seguridad a través de estándares estrictos y monitoreo satelital 24/7. Con presencia en México y Estados Unidos, nos esforzamos por satisfacer las necesidades específicas de cada cliente, mejorando continuamente nuestros procesos y manteniendo los más altos estándares de la industria.'; ?>">
-
+    <title>Olpega | <?php echo isset($title) ? $title : 'Inicio'; ?></title>
+    <meta name="description" content="<?php echo isset($description) ? $description : 'Fundada en 1997, Olpega es un líder en servicios de transporte para la industria alimenticia y automotriz. Ofrecemos soluciones personalizadas de transporte y logística tanto a nivel nacional como internacional, garantizando calidad y seguridad a través de estándares estrictos y monitoreo satelital 24/7. Con presencia en México y Estados Unidos, nos esforzamos por satisfacer las necesidades específicas de cada cliente, mejorando continuamente nuestros procesos y manteniendo los más altos estándares de la industria.'; ?>"> 
 
 </head>
 
