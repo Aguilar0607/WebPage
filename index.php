@@ -21,11 +21,17 @@
         <section class="px-4 py-32 mx-auto max-w-7xl absolute inset-0 flex items-center justify-center text-center">
             <div class="w-full mx-auto md:w-11/12 xl:w-8/12">
                 <div class="mb-6 text-2xl text-custom-blue md:text-3xl md:leading-normal font-semibold">
-                    <span class="text-gray-500 animate-fade animate-delay-200">Bienvenidos a</span> 
-                    <h1 class="text-6xl font-rubik text-custom-blue font-extrabold inline-block border-b-4 border-custom-blue animate-fade animate-delay-500" style="color: #3961ad;"> OLPEGA</h1>
+                    <span class="text-gray-500 animate-fade animate-delay-200">Bienvenidos a</span>
+                    <h1 class="text-6xl font-rubik text-custom-blue font-extrabold inline-block border-b-4 border-custom-blue animate-fade animate-delay-500"
+                        style="color: #3961ad;">
+                        OLPEGA
+                    </h1>
                 </div>
-                <p class="text-lg text-gray-500 mb-8 animate-fade-up animate-delay-[399ms]">Transporte y Logística de Excelencia</p>
-                <a href="/sitio/Paguina/WebPage/templates/services.php" class="inline-block bg-custom-blue text-white hover:bg-blue-700 py-2 px-4 rounded-lg animate-fade-up animate-delay-[399ms]" style="background-color: #3961ad;">
+                <p class="text-lg text-gray-500 mb-8 animate-fade-up animate-delay-[399ms]">Transporte y Logística de
+                    Excelencia</p>
+                <a href="/sitio/Paguina/WebPage/templates/services.php"
+                    class="inline-block bg-custom-blue text-white hover:bg-blue-700 py-2 px-4 rounded-lg animate-fade-up animate-delay-[399ms]"
+                    style="background-color: #3961ad;">
                     Explora Nuestros Servicios
                 </a>
             </div>
