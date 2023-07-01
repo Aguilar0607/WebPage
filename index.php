@@ -29,7 +29,7 @@
                 </div>
                 <p class="text-lg text-gray-500 mb-8 animate-fade-up animate-delay-[399ms]">Transporte y Logística de
                     Excelencia</p>
-                <a href="/sitio/Paguina/WebPage/templates/services.php"
+                <a href="/sitio/Paguina/WebPage/templates/services"
                     class="inline-block bg-custom-blue text-white hover:bg-blue-700 py-2 px-4 rounded-lg animate-fade-up animate-delay-[399ms]"
                     style="background-color: #3961ad;">
                     Explora Nuestros Servicios
