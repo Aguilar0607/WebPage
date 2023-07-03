@@ -24,7 +24,7 @@
         </div>
         <div class="flex md:order-2">
             <button data-collapse-toggle="navbar-sticky" type="button"
-                class="inline-flex items-center p-2 text-sm text-gray-500 border border-gray-500 rounded-lg md:hidden  focus:outline-none focus:ring-2 focus:ring-gray-500"
+                class="inline-flex items-center p-2 text-sm text-white border border-white rounded-lg md:hidden  focus:outline-none focus:ring-2 focus:ring-gray-500"
                 aria-controls="navbar-sticky" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
