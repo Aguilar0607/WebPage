@@ -208,7 +208,7 @@
 </section> -->
 
 <!-- Chiapas -->
-<section class="text-gray-600 body-font bg-gray-100">
+<section class="text-gray-600 body-font bg-white">
     <div class="container flex flex-wrap px-2 md:px-1 py-24 mx-auto items-center">
 
         <div class="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200">
@@ -245,7 +245,7 @@
                 class="bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative h-full">
                 <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0"
                     marginwidth="0" scrolling="no"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d383.9755646894364!2d-92.16125241157388!3d14.672933353833908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858e1580dc8f1c5f%3A0x3d4397cc7450d7ac!2sALMACEN%20OLPEGA!5e0!3m2!1ses-419!2smx!4v1688003502442!5m2!1ses-419!2smx"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.6952593930196!2d-92.16349802407282!3d14.673227775292771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858e15cc0e9930d1%3A0xebb69190a0a7b413!2sDistribuidora%20Olpega%20de%20Chiapas%20S.A%20de%20C.V!5e0!3m2!1ses-419!2smx!4v1688493701813!5m2!1ses-419!2smx"
                     ></iframe>
                 <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
                 </div>
